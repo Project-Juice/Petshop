@@ -5,10 +5,22 @@
  */
 package com.mycompany.zoologiczny;
 
+
 /**
  *
- * @author kornelia
+ * @author Jakub
  */
 public class Request {
+    public static enum OrderBy{
+        NONE,
+        SPECIES,
+        WEIGHT,
+        PRIZE
+    }
+    private Spacies spacies = null;
+    private Integer minPrize = null;
+    private Integer maxPrize = null;
+    private Integer minWeight = null;
+    private Integer maxWeight = null;
     
 }
